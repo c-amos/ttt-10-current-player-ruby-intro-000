@@ -5,4 +5,4 @@ def turn_count(board)
       counter += 1
     if member == "O"
       counter += 1
-end
+  return counter
