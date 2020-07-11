@@ -1,4 +1,4 @@
-require_relative '../spec/current_player_spec.rb'
+# require_relative '../spec/current_player_spec.rb'
 
 def turn_count(board)
   counter = 0
@@ -8,6 +8,7 @@ def turn_count(board)
     if member == "O"
       counter += 1
   return counter
+end
 
 def current_player(board)
   if counter % 2 == 0
@@ -15,3 +16,4 @@ def current_player(board)
   else
     current_player = "O"
   return current_player
+end
